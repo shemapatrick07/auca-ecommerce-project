@@ -1,0 +1,101 @@
+units,category_id,category,month,revenue
+2746,cat_004,Kelly-Santiago,2026-08,691844.07
+2507,cat_005,Cameron-Parsons,2026-08,668933.73
+2588,cat_014,"Anderson, Walls and Duncan",2026-08,654576.85
+2807,cat_017,Hancock Inc,2026-08,652922.3
+2610,cat_012,Carney-Santos,2026-08,649959.4
+2646,cat_018,Phillips Inc,2026-08,645142.47
+2446,cat_021,Mitchell-Kim,2026-08,626750.84
+2348,cat_015,Owens-Daniel,2026-08,624623.54
+2390,cat_024,"Patterson, Smith and Jones",2026-08,624355.48
+2424,cat_006,"Ellis, Baker and Wright",2026-08,624280.5
+2478,cat_003,Bush Inc,2026-08,617094.27
+2364,cat_010,Burns-Rodriguez,2026-08,610492.91
+2466,cat_019,Powell PLC,2026-08,604568.61
+2219,cat_011,Spence PLC,2026-08,600006.46
+2379,cat_008,Rodriguez-Graham,2026-08,597378.17
+2449,cat_020,"Brewer, Bryant and Hickman",2026-08,593741.25
+2566,cat_001,Baldwin Ltd,2026-08,584169.65
+2370,cat_022,Preston Ltd,2026-08,578247.91
+2237,cat_002,James LLC,2026-08,567715.33
+2137,cat_007,"Moore, Becker and Carlson",2026-08,562176.98
+2266,cat_023,King-Odonnell,2026-08,551112.01
+2183,cat_009,Skinner-Romero,2026-08,550469.11
+2079,cat_016,Wright-Leblanc,2026-08,523610.69
+2143,cat_013,Smith Ltd,2026-08,520877.68
+2004,cat_000,"Rodriguez, Figueroa and Sanchez",2026-08,509187.83
+4180,cat_004,Kelly-Santiago,2026-09,1067741.44
+3988,cat_014,"Anderson, Walls and Duncan",2026-09,1019746.69
+3766,cat_005,Cameron-Parsons,2026-09,1003179.32
+3777,cat_018,Phillips Inc,2026-09,948228.85
+3966,cat_017,Hancock Inc,2026-09,945092.6
+3545,cat_021,Mitchell-Kim,2026-09,934942.01
+3585,cat_024,"Patterson, Smith and Jones",2026-09,932213.91
+3820,cat_001,Baldwin Ltd,2026-09,920214.1
+3582,cat_006,"Ellis, Baker and Wright",2026-09,920089.94
+3641,cat_019,Powell PLC,2026-09,906960.63
+3574,cat_003,Bush Inc,2026-09,906267.5
+3677,cat_012,Carney-Santos,2026-09,893809.19
+3736,cat_020,"Brewer, Bryant and Hickman",2026-09,887402.46
+3543,cat_015,Owens-Daniel,2026-09,880148.89
+3480,cat_010,Burns-Rodriguez,2026-09,868035.81
+3269,cat_011,Spence PLC,2026-09,851648.76
+3347,cat_022,Preston Ltd,2026-09,830203.9
+3220,cat_008,Rodriguez-Graham,2026-09,813276.95
+3277,cat_009,Skinner-Romero,2026-09,801835.24
+3048,cat_016,Wright-Leblanc,2026-09,792321.13
+3061,cat_000,"Rodriguez, Figueroa and Sanchez",2026-09,781143.14
+3072,cat_023,King-Odonnell,2026-09,772410.64
+3043,cat_002,James LLC,2026-09,768015.06
+3005,cat_007,"Moore, Becker and Carlson",2026-09,766225.49
+3032,cat_013,Smith Ltd,2026-09,756220.0
+4307,cat_004,Kelly-Santiago,2026-10,1107142.48
+4015,cat_014,"Anderson, Walls and Duncan",2026-10,1043617.02
+3946,cat_005,Cameron-Parsons,2026-10,1031487.53
+3826,cat_024,"Patterson, Smith and Jones",2026-10,1002887.42
+3942,cat_012,Carney-Santos,2026-10,976624.78
+3799,cat_006,"Ellis, Baker and Wright",2026-10,973209.79
+3698,cat_010,Burns-Rodriguez,2026-10,965612.45
+4049,cat_017,Hancock Inc,2026-10,959448.66
+3622,cat_021,Mitchell-Kim,2026-10,958945.65
+3624,cat_015,Owens-Daniel,2026-10,944514.59
+3725,cat_018,Phillips Inc,2026-10,928174.37
+3922,cat_001,Baldwin Ltd,2026-10,925791.13
+3496,cat_011,Spence PLC,2026-10,923524.78
+3735,cat_003,Bush Inc,2026-10,920262.28
+3943,cat_020,"Brewer, Bryant and Hickman",2026-10,915920.45
+3728,cat_019,Powell PLC,2026-10,894538.28
+3647,cat_008,Rodriguez-Graham,2026-10,874697.37
+3359,cat_022,Preston Ltd,2026-10,850833.18
+3434,cat_009,Skinner-Romero,2026-10,850092.68
+3395,cat_023,King-Odonnell,2026-10,830075.8
+3243,cat_016,Wright-Leblanc,2026-10,829447.57
+3324,cat_007,"Moore, Becker and Carlson",2026-10,825416.41
+3268,cat_013,Smith Ltd,2026-10,794359.03
+3251,cat_002,James LLC,2026-10,790167.86
+3036,cat_000,"Rodriguez, Figueroa and Sanchez",2026-10,770021.34
+1127,cat_004,Kelly-Santiago,2026-11,298748.4
+1048,cat_014,"Anderson, Walls and Duncan",2026-11,276658.15
+1001,cat_005,Cameron-Parsons,2026-11,274710.83
+1134,cat_020,"Brewer, Bryant and Hickman",2026-11,272194.96
+1103,cat_019,Powell PLC,2026-11,271309.24
+1053,cat_017,Hancock Inc,2026-11,264606.69
+1000,cat_006,"Ellis, Baker and Wright",2026-11,260826.44
+1000,cat_021,Mitchell-Kim,2026-11,258498.52
+1006,cat_018,Phillips Inc,2026-11,254736.94
+989,cat_003,Bush Inc,2026-11,254232.67
+1039,cat_012,Carney-Santos,2026-11,253296.63
+998,cat_010,Burns-Rodriguez,2026-11,251400.73
+955,cat_024,"Patterson, Smith and Jones",2026-11,248577.54
+954,cat_011,Spence PLC,2026-11,246587.38
+1039,cat_001,Baldwin Ltd,2026-11,242018.34
+969,cat_015,Owens-Daniel,2026-11,241423.65
+919,cat_007,"Moore, Becker and Carlson",2026-11,237289.89
+929,cat_008,Rodriguez-Graham,2026-11,234685.03
+897,cat_013,Smith Ltd,2026-11,230700.81
+947,cat_002,James LLC,2026-11,230293.09
+928,cat_022,Preston Ltd,2026-11,229929.14
+903,cat_009,Skinner-Romero,2026-11,223349.24
+902,cat_023,King-Odonnell,2026-11,218029.1
+841,cat_016,Wright-Leblanc,2026-11,213432.23
+769,cat_000,"Rodriguez, Figueroa and Sanchez",2026-11,189614.82

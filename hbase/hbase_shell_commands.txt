@@ -1,0 +1,30 @@
+# ---- HBase shell:  docker exec -it hbase hbase shell ----------------------------------------
+# Schema ---------------------------------------------------------------------------------------
+create 'user_sessions', {NAME => 'info', VERSIONS => 1, BLOOMFILTER => 'ROW'}, {NAME => 'device', VERSIONS => 1}, {NAME => 'geo', VERSIONS => 1}, {NAME => 'pv', VERSIONS => 1}, {NAME => 'cart', VERSIONS => 1}
+create 'product_metrics', {NAME => 'm', VERSIONS => 1}
+list
+describe 'user_sessions'
+
+# Row key = <user_id>#<reverse_ts>#<session_id>   (reverse_ts = 9223372036854775807 - epoch_ms, 19 digits)
+# Example (epoch_ms 1760000000000 -> 9223370276854775807)
+put 'user_sessions', 'user_000042#9223370276854775807#sess_a7b3c9d8e2', 'info:referrer', 'search_engine'
+put 'user_sessions', 'user_000042#9223370276854775807#sess_a7b3c9d8e2', 'info:conversion_status', 'converted'
+put 'user_sessions', 'user_000042#9223370276854775807#sess_a7b3c9d8e2', 'pv:000', '2026-09-01T14:37:22|home|||42'
+put 'user_sessions', 'user_000042#9223370276854775807#sess_a7b3c9d8e2', 'cart:prod_00123', '2|129.99'
+
+# Query patterns --------------------------------------------------------------------------------
+# All sessions of ONE user, newest first (prefix scan: '#' + 1 = '$')
+scan 'user_sessions', {STARTROW => 'user_000042#', STOPROW => 'user_000042$', LIMIT => 10}
+# Only a few columns
+scan 'user_sessions', {STARTROW => 'user_000042#', STOPROW => 'user_000042$', COLUMNS => ['info:start_time','info:conversion_status'], LIMIT => 10}
+# Single row
+get 'user_sessions', 'user_000042#9223370276854775807#sess_a7b3c9d8e2'
+# Time window for one user (later time => smaller reverse ts => comes first)
+scan 'user_sessions', {STARTROW => 'user_000042#<rev_ts(t_end)>', STOPROW => 'user_000042#<rev_ts(t_start)>~'}
+# Prefix filter alternative
+scan 'user_sessions', {ROWPREFIXFILTER => 'user_000042#', LIMIT => 5}
+
+# Product metrics over time: row key = <product_id>#<yyyymmdd>
+scan 'product_metrics', {STARTROW => 'prod_00123#20260901', STOPROW => 'prod_00123#20261001'}
+get 'product_metrics', 'prod_00123#20260915'
+count 'product_metrics', INTERVAL => 100000

@@ -1,0 +1,91 @@
+
+Q1. Latest 5 sessions of user_000000 (prefix scan, newest first)
+  2026-10-30T02:50:11  sess_109ca54844  desktop  2795s  abandoned  ref=email          page_views=9 cart={'prod_00313': '3|253.78', 'prod_00369': '3|439.15'}
+  2026-10-22T17:54:54  sess_9653c18491  desktop  1423s  abandoned  ref=search_engine  page_views=15 cart={'prod_01364': '3|362.16', 'prod_02947': '2|375.98', 'prod_03465': '1|507.88', 'prod_04062': '1|414.32'}
+  2026-10-10T06:36:27  sess_10c786d25d  mobile   3249s  converted  ref=direct         page_views=12 cart={'prod_03362': '3|446.8'}
+  2026-10-09T12:43:56  sess_2c6e368ecb  desktop   100s  browsed    ref=direct         page_views=13 cart=-
+  2026-10-04T18:29:37  sess_a589d305f3  tablet   1287s  abandoned  ref=social         page_views=10 cart={'prod_02423': '3|116.65'}
+
+Q2. Sessions of user_000000 between 2026-10-16 and 2026-10-30 (range scan)
+  2026-10-30T02:50:11  sess_109ca54844  desktop  2795s  abandoned  ref=email          page_views=9 cart={'prod_00313': '3|253.78', 'prod_00369': '3|439.15'}
+  2026-10-22T17:54:54  sess_9653c18491  desktop  1423s  abandoned  ref=search_engine  page_views=15 cart={'prod_01364': '3|362.16', 'prod_02947': '2|375.98', 'prod_03465': '1|507.88', 'prod_04062': '1|414.32'}
+  -> 2 sessions in window
+
+Q3. Daily metrics of prod_00000
+  20260812  views=1  cart_adds=1  purchases=0  revenue=0.0
+  20260813  views=2  cart_adds=0  purchases=0  revenue=0.0
+  20260814  views=3  cart_adds=3  purchases=2  revenue=1856.5
+  20260816  views=4  cart_adds=1  purchases=1  revenue=742.6
+  20260817  views=2  cart_adds=0  purchases=0  revenue=0.0
+  20260819  views=1  cart_adds=1  purchases=0  revenue=0.0
+  20260820  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20260822  views=3  cart_adds=0  purchases=0  revenue=0.0
+  20260823  views=3  cart_adds=0  purchases=0  revenue=0.0
+  20260824  views=2  cart_adds=2  purchases=2  revenue=2227.8
+  20260825  views=2  cart_adds=1  purchases=0  revenue=0.0
+  20260826  views=2  cart_adds=1  purchases=1  revenue=371.3
+  20260828  views=2  cart_adds=1  purchases=0  revenue=0.0
+  20260829  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20260830  views=2  cart_adds=1  purchases=0  revenue=0.0
+  20260831  views=6  cart_adds=2  purchases=0  revenue=0.0
+  20260901  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20260902  views=3  cart_adds=1  purchases=0  revenue=0.0
+  20260903  views=2  cart_adds=0  purchases=0  revenue=0.0
+  20260904  views=4  cart_adds=1  purchases=0  revenue=0.0
+  20260905  views=6  cart_adds=0  purchases=0  revenue=0.0
+  20260906  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20260907  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20260909  views=4  cart_adds=1  purchases=0  revenue=0.0
+  20260910  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20260913  views=2  cart_adds=1  purchases=0  revenue=0.0
+  20260914  views=2  cart_adds=0  purchases=0  revenue=0.0
+  20260915  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20260916  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20260917  views=2  cart_adds=1  purchases=1  revenue=742.6
+  20260918  views=2  cart_adds=0  purchases=0  revenue=0.0
+  20260919  views=2  cart_adds=1  purchases=0  revenue=0.0
+  20260920  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20260921  views=3  cart_adds=1  purchases=1  revenue=742.6
+  20260922  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20260923  views=3  cart_adds=1  purchases=0  revenue=0.0
+  20260924  views=1  cart_adds=1  purchases=0  revenue=0.0
+  20260925  views=1  cart_adds=1  purchases=0  revenue=0.0
+  20260926  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20260927  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20260928  views=1  cart_adds=1  purchases=0  revenue=0.0
+  20260930  views=3  cart_adds=0  purchases=0  revenue=0.0
+  20261001  views=1  cart_adds=1  purchases=0  revenue=0.0
+  20261002  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20261003  views=1  cart_adds=1  purchases=0  revenue=0.0
+  20261004  views=2  cart_adds=0  purchases=0  revenue=0.0
+  20261005  views=2  cart_adds=2  purchases=2  revenue=2227.8
+  20261006  views=2  cart_adds=0  purchases=0  revenue=0.0
+  20261007  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20261008  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20261010  views=2  cart_adds=2  purchases=0  revenue=0.0
+  20261011  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20261012  views=4  cart_adds=2  purchases=1  revenue=371.3
+  20261013  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20261014  views=3  cart_adds=1  purchases=0  revenue=0.0
+  20261015  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20261017  views=4  cart_adds=2  purchases=0  revenue=0.0
+  20261018  views=4  cart_adds=2  purchases=1  revenue=742.6
+  20261019  views=1  cart_adds=1  purchases=0  revenue=0.0
+  20261020  views=6  cart_adds=4  purchases=1  revenue=1113.9
+  20261021  views=2  cart_adds=1  purchases=0  revenue=0.0
+  20261022  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20261024  views=1  cart_adds=1  purchases=0  revenue=0.0
+  20261026  views=2  cart_adds=0  purchases=0  revenue=0.0
+  20261027  views=3  cart_adds=2  purchases=1  revenue=742.6
+  20261028  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20261029  views=3  cart_adds=1  purchases=0  revenue=0.0
+  20261030  views=3  cart_adds=1  purchases=0  revenue=0.0
+  20261031  views=3  cart_adds=2  purchases=1  revenue=742.6
+  20261101  views=2  cart_adds=2  purchases=0  revenue=0.0
+  20261102  views=2  cart_adds=1  purchases=0  revenue=0.0
+  20261103  views=2  cart_adds=1  purchases=0  revenue=0.0
+  20261105  views=2  cart_adds=1  purchases=0  revenue=0.0
+  20261107  views=1  cart_adds=0  purchases=0  revenue=0.0
+  20261108  views=3  cart_adds=1  purchases=0  revenue=0.0
+  20261109  views=2  cart_adds=1  purchases=0  revenue=0.0
+  TOTAL {'views': 159, 'cart_adds': 58, 'purchases': 15} | view->cart 36.5% | view->purchase 9.4%

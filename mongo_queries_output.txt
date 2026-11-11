@@ -1,0 +1,46 @@
+
+=== 1. Top-selling products  (200 rows, 0.21s) -> output/mongo_top_products.csv
+ units_sold  orders product_id                                       name                   category  revenue
+         87      42 prod_02715      Operative Homogeneous Functionalities               Mitchell-Kim 44455.26
+         95      41 prod_01889      Triple-Buffered Value-Added Workforce                 Powell PLC 44078.10
+         80      36 prod_02509      Organized Bandwidth-Monitored Archive                Preston Ltd 42614.40
+         76      36 prod_04940   Advanced Exuding Artificial Intelligence               Mitchell-Kim 42398.12
+         97      45 prod_02442       Profit-Focused Executive Focus Group Brewer, Bryant and Hickman 41727.46
+         77      36 prod_02161               Multi-Layered Stable Concept    Ellis, Baker and Wright 41241.97
+         73      35 prod_02419     Team-Oriented Client-Server Monitoring Anderson, Walls and Duncan 41024.54
+         69      30 prod_00154 Triple-Buffered Homogeneous Info-Mediaries             Skinner-Romero 40996.35
+         78      37 prod_04181             Universal Background Challenge                Hancock Inc 40509.30
+         82      40 prod_01243               Programmable Static Database Patterson, Smith and Jones 40375.16
+
+=== 2. Revenue by category and month  (100 rows, 0.23s) -> output/mongo_revenue_by_category_month.csv
+ units category_id                   category   month   revenue
+  2746     cat_004             Kelly-Santiago 2026-08 691844.07
+  2507     cat_005            Cameron-Parsons 2026-08 668933.73
+  2588     cat_014 Anderson, Walls and Duncan 2026-08 654576.85
+  2807     cat_017                Hancock Inc 2026-08 652922.30
+  2610     cat_012              Carney-Santos 2026-08 649959.40
+  2646     cat_018               Phillips Inc 2026-08 645142.47
+  2446     cat_021               Mitchell-Kim 2026-08 626750.84
+  2348     cat_015               Owens-Daniel 2026-08 624623.54
+  2390     cat_024 Patterson, Smith and Jones 2026-08 624355.48
+  2424     cat_006    Ellis, Baker and Wright 2026-08 624280.50
+
+=== 3. User segments by spend quartile  (4 rows, 0.10s) -> output/mongo_user_segments.csv
+segment  users  spend_min  spend_max  avg_orders  avg_spent
+     Q1   2493      18.40    4158.22        3.48    2750.47
+     Q2   2493    4158.22    6182.29        5.27    5198.98
+     Q3   2493    6182.29    8391.33        6.61    7208.25
+     Q4   2493    8391.33   21389.80        8.71   10684.25
+
+=== 4. Most-viewed products  (200 rows, 0.65s) -> output/mongo_most_viewed.csv
+ views  converted_sessions product_id                                      name                        category
+   190                  37 prod_02412           Expanded System-Worthy Attitude                 Cameron-Parsons
+   190                  63 prod_00947        Multi-Tiered Zero-Defect Help-Desk      Anderson, Walls and Duncan
+   188                  54 prod_02193            Reduced Web-Enabled Projection Rodriguez, Figueroa and Sanchez
+   187                  50 prod_01973           Team-Oriented Value-Added Array                       James LLC
+   186                  46 prod_00658              Right-Sized National Concept                    Mitchell-Kim
+   185                  42 prod_02420 Self-Enabling Upward-Trending Flexibility                  Skinner-Romero
+   185                  49 prod_04857      Integrated Clear-Thinking Capability      Patterson, Smith and Jones
+   184                  44 prod_01048            Stand-Alone Multimedia Circuit                      Powell PLC
+   183                  43 prod_01830                Customizable Coherent Core                     Baldwin Ltd
+   183                  42 prod_04552          Secured Didactic Instruction Set                  Kelly-Santiago
